@@ -1,6 +1,7 @@
 ﻿<Project Sdk="MSBuild.Sdk.Extras">
   <PropertyGroup>
-    <TargetFrameworks>netstandard2.0;net46;uap10.0;uap10.0.16299</TargetFrameworks>
+    <!--TargetFrameworks>netstandard2.0;net46;uap10.0;uap10.0.16299</TargetFrameworks-->
+		<TargetFrameworks>net46</TargetFrameworks>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <IsPackable>true</IsPackable>
   </PropertyGroup>
@@ -16,6 +17,10 @@ Bring the power of Rx to collections using Dynamic Data.
 Dynamic Data is a comprehensive caching and data manipulation solution which introduces domain centric observable collections.
       Linq extensions enable dynamic filtering, sorting, grouping, transforms, binding, pagination, data virtualisation, expiration, disposal management plus more.
     </Description>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>sirlan.snk</AssemblyOriginatorKeyFile>
+    <Version>6.8.0.2561</Version>
+    <PackageId>DynamicData.StrongNamed</PackageId>
   </PropertyGroup>
 
 </Project>
