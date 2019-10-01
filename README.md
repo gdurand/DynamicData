@@ -1,3 +1,20 @@
+[![Build Status](https://dev.azure.com/dotnet/ReactiveUI/_apis/build/status/DynamicData-CI)](https://dev.azure.com/dotnet/ReactiveUI/_build/latest?definitionId=92) [![Code Coverage](https://codecov.io/gh/reactiveui/DynamicData/branch/master/graph/badge.svg)](https://codecov.io/gh/reactiveui/DynamicData)
+<a href="#backers">
+        <img src="https://opencollective.com/reactiveui/backers/badge.svg">
+</a>
+<a href="#sponsors">
+        <img src="https://opencollective.com/reactiveui/sponsors/badge.svg">
+</a>
+<a href="https://reactiveui.net/slack">
+        <img src="https://img.shields.io/badge/chat-slack-blue.svg">
+</a>
+[![NuGet Stats](https://img.shields.io/nuget/v/DynamicData.svg)](https://www.nuget.org/packages/DynamicData) ![Downloads](https://img.shields.io/nuget/dt/DynamicData.svg)
+<br />
+<br />
+<a href="https://github.com/reactiveui/DynamicData">
+        <img width="170" height="170" src="https://github.com/reactiveui/styleguide/blob/master/logo_dynamic_data/logo.svg"/>
+</a>
+
 ## Dynamic Data
 
 Dynamic Data is a portable class library which brings the power of Reactive Extensions (Rx) to collections.  
@@ -24,8 +41,6 @@ var myOperation = myTradeCache.Connect()
 The magic is that as  ```myTradeCache``` is maintained the target observable collection looks after itself.
 
 This is a simple example to show how using Dynamic Data's collections and operators make in-memory data management extremely easy and can reduce the size and complexity of your code base by abstracting complicated and often repetitive operations.
-
-[![NuGet Stats](https://img.shields.io/nuget/v/DynamicData.svg)](https://www.nuget.org/packages/DynamicData) ![Downloads](https://img.shields.io/nuget/dt/DynamicData.svg) [![Build status](https://ci.appveyor.com/api/projects/status/jnq3kagdkp5xtqi5?svg=true)](https://ci.appveyor.com/project/RolandPheasant/dynamicdata-dpbpa)
 
 ### Sample Projects 
 
