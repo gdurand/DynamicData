@@ -19,7 +19,7 @@ Dynamic Data is a comprehensive caching and data manipulation solution which int
     </Description>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>sirlan.snk</AssemblyOriginatorKeyFile>
-    <Version>6.9.13</Version>
+    <Version>6.13.9</Version>
     <PackageId>DynamicData.StrongNamed</PackageId>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
